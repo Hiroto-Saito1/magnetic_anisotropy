@@ -1,0 +1,4 @@
+mae: 磁化z方向、射影x方向
+mae1: 磁化x方向、射影z方向
+
+mae_convergence.py: maeとmae1のエネルギー差

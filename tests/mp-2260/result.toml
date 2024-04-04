@@ -1,0 +1,9 @@
+atoms = [ "Fe", "Pt",]
+orbitals = [ "s", "p", "d", "s", "p", "d",]
+extract_only_x_component = 1
+use_convert_ham_r = 0
+Nk = 10
+"E_F [eV]" = 17.060782061052347
+"dE[100] [meV]" = 2.9563082026413667
+"M_diff_max [meV]" = 6.713707025
+"M_diff_ave [meV]" = 0.031015437892236455

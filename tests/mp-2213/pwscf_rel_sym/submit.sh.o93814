@@ -1,0 +1,110 @@
+ 
+:: initializing oneAPI environment ...
+   93814.toki.SC: BASH_VERSION = 4.4.20(1)-release
+   args: Using "$@" for setvars.sh arguments: --force intel64
+:: advisor -- latest
+:: ccl -- latest
+:: clck -- latest
+:: compiler -- latest
+:: dal -- latest
+:: debugger -- latest
+:: dev-utilities -- latest
+:: dnnl -- latest
+:: dpcpp-ct -- latest
+:: dpl -- latest
+:: inspector -- latest
+:: intelpython -- latest
+:: ipp -- latest
+:: ippcp -- latest
+:: ipp -- latest
+:: itac -- latest
+:: mkl -- latest
+:: modelzoo -- latest
+:: modin -- latest
+:: mpi -- latest
+:: neural-compressor -- latest
+:: pytorch -- latest
+:: tbb -- latest
+:: tensorflow -- latest
+:: vpl -- latest
+:: vtune -- latest
+:: oneAPI environment initialized ::
+ 
+2023-11-21 13:46:48,404 [wannier_utils.hamiltonian INFO]: Reading mae/wan/pwscf_py_tb.dat ...
+2023-11-21 13:46:53,364 [wannier_utils.hamiltonian INFO]: Reading mae/wan/pwscf_py_tb.dat is Done.
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]: Wannier center from Amnrs:
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]:   0     -0.00000000      0.00000000     -0.00000000
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]:   1      0.00000000     -0.00000000     -0.00000000
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]:   2     -0.00000000     -0.00000000      0.00000000
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]:   3      0.00000000      0.00000000     -0.00000000
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]:   4     -0.00000000     -0.00000000      0.00000000
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]:   5      0.00000000      0.00000000      0.00000000
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]:   6     -0.00000000      0.00000000     -0.00000000
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]:   7      0.00000000     -0.00000000     -0.00000000
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]:   8     -0.00000000     -0.00000000     -0.00000000
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]:   9     -0.00000000      0.00000000     -0.00000000
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]:  10     -0.00000000      0.00000000      0.00000000
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]:  11      0.00000000     -0.00000000      0.00000000
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]:  12     -0.00000000     -0.00000000     -0.00000000
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]:  13     -0.00000000      0.00000000     -0.00000000
+2023-11-21 13:46:53,365 [wannier_utils.hamiltonian DEBUG]:  14      0.00000000      0.00000000     -0.00000000
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  15     -0.00000000     -0.00000000     -0.00000000
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  16     -0.00000000      0.00000000     -0.00000000
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  17      0.00000000     -0.00000000     -0.00000000
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  18      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  19      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  20      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  21      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  22      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  23      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  24      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  25      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  26      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  27      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  28      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  29      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  30      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  31      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  32      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  33      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  34      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,366 [wannier_utils.hamiltonian DEBUG]:  35      1.25330554      1.25330554      1.79065800
+2023-11-21 13:46:53,975 [wannier_utils.hamiltonian INFO]: Reading mae1/wan/pwscf_py_tb.dat ...
+2023-11-21 13:47:00,402 [wannier_utils.hamiltonian INFO]: Reading mae1/wan/pwscf_py_tb.dat is Done.
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]: Wannier center from Amnrs:
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:   0     -0.00000000     -0.00000000     -0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:   1     -0.00000000      0.00000000     -0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:   2     -0.00000000      0.00000000      0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:   3      0.00000000     -0.00000000     -0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:   4     -0.00000000     -0.00000001      0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:   5      0.00000000      0.00000001      0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:   6      0.00000000     -0.00000000     -0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:   7     -0.00000000      0.00000000     -0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:   8     -0.00000000     -0.00000000     -0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:   9     -0.00000000      0.00000000     -0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  10      0.00000000     -0.00000000     -0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  11     -0.00000000      0.00000000     -0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  12      0.00000000     -0.00000000     -0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  13     -0.00000000      0.00000000     -0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  14     -0.00000000     -0.00000000     -0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  15     -0.00000000      0.00000000     -0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  16     -0.00000000     -0.00000000     -0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  17      0.00000000      0.00000000     -0.00000000
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  18      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  19      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  20      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  21      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  22      1.25330554      1.25330553      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  23      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  24      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  25      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  26      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  27      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  28      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  29      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  30      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  31      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  32      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  33      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  34      1.25330554      1.25330554      1.79065800
+2023-11-21 13:47:00,403 [wannier_utils.hamiltonian DEBUG]:  35      1.25330554      1.25330554      1.79065800

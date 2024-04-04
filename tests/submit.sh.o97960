@@ -1,0 +1,83 @@
+ 
+:: initializing oneAPI environment ...
+   -bash: BASH_VERSION = 4.4.20(1)-release
+   args: Using "$@" for setvars.sh arguments: --force intel64
+:: advisor -- latest
+:: ccl -- latest
+:: clck -- latest
+:: compiler -- latest
+:: dal -- latest
+:: debugger -- latest
+:: dev-utilities -- latest
+:: dnnl -- latest
+:: dpcpp-ct -- latest
+:: dpl -- latest
+:: inspector -- latest
+:: intelpython -- latest
+:: ipp -- latest
+:: ippcp -- latest
+:: ipp -- latest
+:: itac -- latest
+:: mkl -- latest
+:: modelzoo -- latest
+:: modin -- latest
+:: mpi -- latest
+:: neural-compressor -- latest
+:: pytorch -- latest
+:: tbb -- latest
+:: tensorflow -- latest
+:: vpl -- latest
+:: vtune -- latest
+:: oneAPI environment initialized ::
+ 
+ 
+:: initializing oneAPI environment ...
+   97960.toki.SC: BASH_VERSION = 4.4.20(1)-release
+   args: Using "$@" for setvars.sh arguments: --force intel64
+:: advisor -- latest
+:: ccl -- latest
+:: clck -- latest
+:: compiler -- latest
+:: dal -- latest
+:: debugger -- latest
+:: dev-utilities -- latest
+:: dnnl -- latest
+:: dpcpp-ct -- latest
+:: dpl -- latest
+:: inspector -- latest
+:: intelpython -- latest
+:: ipp -- latest
+:: ippcp -- latest
+:: ipp -- latest
+:: itac -- latest
+:: mkl -- latest
+:: modelzoo -- latest
+:: modin -- latest
+:: mpi -- latest
+:: neural-compressor -- latest
+:: pytorch -- latest
+:: tbb -- latest
+:: tensorflow -- latest
+:: vpl -- latest
+:: vtune -- latest
+:: oneAPI environment initialized ::
+ 
+2024-04-03 16:07:28,661 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat ...
+2024-04-03 16:07:28,661 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat ...
+2024-04-03 16:07:28,661 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat ...
+2024-04-03 16:07:28,661 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat ...
+2024-04-03 16:07:28,661 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat ...
+2024-04-03 16:07:28,661 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat ...
+2024-04-03 16:07:28,661 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat ...
+2024-04-03 16:07:28,661 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat ...
+2024-04-03 16:07:29,383 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat is Done.
+2024-04-03 16:07:29,387 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat is Done.
+2024-04-03 16:07:29,389 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat is Done.
+2024-04-03 16:07:29,389 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat is Done.
+2024-04-03 16:07:29,389 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat is Done.
+2024-04-03 16:07:29,392 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat is Done.
+2024-04-03 16:07:29,398 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat is Done.
+2024-04-03 16:07:29,403 [wannier_utils.hamiltonian INFO]: Reading ../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat is Done.
+(36, 1000)
+fin: 1.421 sec
+Memory used by the program: 0.08971405029296875 GB

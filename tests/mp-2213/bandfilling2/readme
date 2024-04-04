@@ -1,0 +1,3 @@
+Nk=60で計算したwith extractionとw/o extractionの結果と、2方向のWannierから計算したオリジナルの結果を比較する
+convert=False
+純虚数対角成分を含めた

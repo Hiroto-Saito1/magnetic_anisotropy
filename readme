@@ -1,0 +1,17 @@
+論文 "Efficient Calculation of Magnetocrystalline Anisotropy Energy Using Symmetry-Adapted Wannier Functions" に用いたプログラムとテストデータ。
+
+Branch:
+    * main: 新データベースの ma_interface
+    * dev3: 旧データベースの ma_interface
+
+Todo:
+* TRS_Wannier にリポジトリをフォークする
+    * 旧データベースを使うか、新データベースを使うかは選択できるようにする
+    
+* magnetic_anisotropy から余剰な機能を消去する
+* Docを追加する
+
+* Weyl_semimetal にリポジトリをフォークする
+* alter_magnet にリポジトリをフォークする
+
+

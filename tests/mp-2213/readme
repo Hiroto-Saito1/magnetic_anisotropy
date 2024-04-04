@@ -1,0 +1,17 @@
+angle_dep: Nk=30, convert=F, extract=T
+angle_dep1: Nk=40, 純虚数対角成分を含めた; obsolete
+angle_dep2: Nk=40, extract=F, convert=F; obsolete
+angle_dep3: Nk=60, extract=T, convert=F
+angle_dep_light: Nk=100, extract=T, convert=F
+angle_dep_light1: Nk=150, extract=T, convert=F
+
+bandfilling: Nk=60, convert=F
+bandfilling1: Nk=60, convert=T; obsolete
+bandfilling2: Nk=60, 準拠数対角成分を含めた; obsolete
+bandfilling3: Nk=100, convert=F
+bandfilling4: Nk=150, convert=F
+
+lam_dep: Nk=150, extract=T, convert=F
+
+mae_conv: extract=T, convert=F
+mae_conv1: 純虚数対角成分を含めた; obsolete

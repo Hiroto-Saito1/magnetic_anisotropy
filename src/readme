@@ -1,0 +1,5 @@
+wannier_utils/: develop/Arimoto の wannier_utils
+mag_rotation.py: 磁化の方向に依存したハミルトニアンを求めるモジュール
+ma_quantities.py: フェルミエネエルギー、自由エネルギー、スピンモーメント、軌道モーメントを計算するモジュール
+ma_interface.py: mae_convergence.py, lam_dep.py, angle_dep.py を統合し、zodiac or toki 上でデータベースに投げるためのインターフェイス
+

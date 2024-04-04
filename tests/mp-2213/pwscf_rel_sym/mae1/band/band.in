@@ -1,0 +1,6 @@
+&bands
+   outdir = './work/',
+   prefix='pwscf',
+   filband='band',
+   lsym=.true.
+/

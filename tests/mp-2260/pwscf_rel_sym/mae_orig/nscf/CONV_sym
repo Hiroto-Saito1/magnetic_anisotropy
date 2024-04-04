@@ -1,0 +1,7 @@
+# Reading ../wan/pwscf_py_hr.dat: Done
+# ecut =  0.50, -100.00
+average diff =      0.00260016
+max diff     =      0.03630574
+# ecut =  0.00, -100.00
+average diff =      0.00190203
+max diff     =      0.02113313

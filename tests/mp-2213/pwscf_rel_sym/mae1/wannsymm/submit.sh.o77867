@@ -1,0 +1,36 @@
+ 
+:: initializing oneAPI environment ...
+   -bash: BASH_VERSION = 4.4.20(1)-release
+   args: Using "$@" for setvars.sh arguments: intel64
+:: advisor -- latest
+:: ccl -- latest
+:: clck -- latest
+:: compiler -- latest
+:: dal -- latest
+:: debugger -- latest
+:: dev-utilities -- latest
+:: dnnl -- latest
+:: dpcpp-ct -- latest
+:: dpl -- latest
+:: inspector -- latest
+:: intelpython -- latest
+:: ipp -- latest
+:: ippcp -- latest
+:: ipp -- latest
+:: itac -- latest
+:: mkl -- latest
+:: modelzoo -- latest
+:: modin -- latest
+:: mpi -- latest
+:: neural-compressor -- latest
+:: pytorch -- latest
+:: tbb -- latest
+:: tensorflow -- latest
+:: vpl -- latest
+:: vtune -- latest
+:: oneAPI environment initialized ::
+ 
+2023-08-23 21:13:25,305 [wannier_utils.hamiltonian INFO]: Reading /home/hirotosaito/MaterialsProject/mag20230526/MAE_programs/tests/mp-2213-1/pwscf_rel_sym/mae1/wannsymm/pwscf_py_symmed_hr.dat ...
+2023-08-23 21:13:26,099 [wannier_utils.hamiltonian INFO]: Reading /home/hirotosaito/MaterialsProject/mag20230526/MAE_programs/tests/mp-2213-1/pwscf_rel_sym/mae1/wannsymm/pwscf_py_symmed_hr.dat is Done.
+2023-08-23 21:13:26,506 [wannier_utils.hamiltonian INFO]: Reading /home/hirotosaito/MaterialsProject/mag20230526/MAE_programs/tests/mp-2213-1/pwscf_rel_sym/mae1/wannsymm/pwscf_py_symmed_hr.dat ...
+2023-08-23 21:13:27,337 [wannier_utils.hamiltonian INFO]: Reading /home/hirotosaito/MaterialsProject/mag20230526/MAE_programs/tests/mp-2213-1/pwscf_rel_sym/mae1/wannsymm/pwscf_py_symmed_hr.dat is Done.

@@ -1,0 +1,8 @@
+mp-2213: FeNi
+    mae: 磁化z方向、射影x方向、scf 14*14*10, nscf 9*9*7
+    mae1: 磁化x方向、射影z方向、scf 14*14*10, nscf 9*9*7
+
+mp-2260: FePt
+    mae: 磁化z方向、射影x方向、scf 13*13*9, nscf 9*9*6
+    mae1: 磁化x方向、射影z方向、scf 13*13*9, nscf 9*9*6
+    mae_orig: 是常先生のオリジナル

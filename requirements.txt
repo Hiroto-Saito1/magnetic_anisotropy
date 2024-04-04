@@ -1,0 +1,9 @@
+numpy
+scipy
+h5py
+pymatgen
+toml
+matplotlib
+joblib
+mpi4py
+psutil
