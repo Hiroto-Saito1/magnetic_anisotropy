@@ -6,4 +6,6 @@ Branch:
 
 Todo:
     * magnetic_anisotropy から余剰な機能を消去する
+        ** src の整理
+        * test の整理
 
