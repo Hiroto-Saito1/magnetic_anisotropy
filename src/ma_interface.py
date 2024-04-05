@@ -125,7 +125,11 @@ class MaInterface:
                 return True
         return False
 
-    def read_num_valence(self, path_to_scf_out: Path, path_to_pwscf_win: Path,) -> int:
+    def read_num_valence(
+        self,
+        path_to_scf_out: Path,
+        path_to_pwscf_win: Path,
+    ) -> int:
         """scf.out と pwscf.win から価電子数を計算する。"""
         scf_out = open(path_to_scf_out, "r")
         num_line = sum([1 for _ in open(path_to_scf_out, "r")])
@@ -409,21 +413,6 @@ class MaInterface:
 
 
 if __name__ == "__main__":
-    """
-    ns_folders = [
-        "ns1",
-        "ns2",
-        "ns3",
-        "ns4",
-        "ns5",
-        "ns6",
-        "ns7",
-        "ns8",
-        "ns9",
-        "ns10",
-        "ns11",
-    ]
-    """
     ns_folders = ["tests"]
 
     for ns in ns_folders:
