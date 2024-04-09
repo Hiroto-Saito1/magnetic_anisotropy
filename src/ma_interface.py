@@ -68,8 +68,8 @@ class MaInterface:
         self.inputs_pathes, self.dft_unfinished = self.check_dft_finished(
             mp_folders_all
         )
-        self.inputs_pathes = self.check_wannier_centers_and_spreads(self.inputs_pathes)
-        self.inputs_pathes = self.check_f_electrons(self.inputs_pathes)
+        # self.inputs_pathes = self.check_wannier_centers_and_spreads(self.inputs_pathes)
+        # self.inputs_pathes = self.check_f_electrons(self.inputs_pathes)
 
     def find_file_path(self, dir_path: Path, file_name_pattern: str) -> Path:
         """dir_path 以下にある file_name_pattern の絶対パスを取得する。
@@ -341,19 +341,20 @@ class MaInterface:
                 )
 
     def qsub_pyprogram(
-        self, pyprogram: str, group="GroupC", use_mpi: bool = True, nproc=16
+        self, pyprogram: str, group="GroupC", use_mpi: bool = True, nproc=1
     ):
         """qsubでさまざまなpythonプログラムを実行する。"""
         for i in range(len(self.inputs_pathes)):
             f = open(self.inputs_pathes[i].mp_folder / "submit.sh", "w")
             script_content = (
-                "#!/bin/bash \n"
-                + "#PBS -q {} \n\n".format(group)
+                # "#!/bin/bash \n" +
+                "#PBS -q {} \n\n".format(group)
                 + "source /opt/intel_2022/setvars.sh --force intel64 \n"
                 + "conda activate mae \n"
                 + "cd $PBS_O_WORKDIR \n"
             )
             if use_mpi:
+                script_content = f"#PBS -l nodes=1:ppn={nproc} \n" + script_content
                 python_script = (
                     "numactl --interleave=all "
                     + "mpirun -n {} python {}\n".format(
@@ -369,7 +370,9 @@ class MaInterface:
             f.write(script_content + python_script)
             f.close()
             subprocess.run(
-                "cd {}; qsub submit.sh".format(self.inputs_pathes[i].mp_folder),
+                "cd {}; chmod u+x submit.sh; qsub submit.sh".format(
+                    self.inputs_pathes[i].mp_folder
+                ),
                 shell=True,
                 check=True,
             )
@@ -379,7 +382,7 @@ class MaInterface:
         pyprogram: str,
         group='"aries01 aries02 aries03"',
         use_mpi: bool = True,
-        nproc=16,
+        nproc=1,
     ):
         """bsubでさまざまなpythonプログラムを実行する。"""
         for i in range(len(self.inputs_pathes)):
@@ -400,8 +403,8 @@ class MaInterface:
             f.close()
 
             subprocess.run(
-                "cd {}; chmod u+x submit.sh; bsub -m {} -e err ./submit.sh".format(
-                    self.inputs_pathes[i].mp_folder, group
+                "cd {}; chmod u+x submit.sh; bsub -n {} -m {} -e err ./submit.sh".format(
+                    nproc, self.inputs_pathes[i].mp_folder, group
                 ),
                 shell=True,
                 check=True,
@@ -409,32 +412,28 @@ class MaInterface:
 
 
 if __name__ == "__main__":
-    ns_folders = ["tests"]
+    tests_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "tests"))
 
-    for ns in ns_folders:
-        ma = MaInterface(root_dir=Path(os.getcwd() + "/../" + ns))
-        ma.make_input_toml(
-            # Nk=100,
-            # extract_only_x_component=1,
-            # use_convert_ham_r=1,
-            # result_file_name="result_full_component.txt",
-            # mae_conv_file_name="mae_conv_convert_and_full.txt",
-            # angle_dep_file_name="angle_dep1.txt",
-        )
+    ma = MaInterface(root_dir=Path(tests_path))
+    ma.make_input_toml(
+        Nk=10,
+        # extract_only_x_component=1,
+        # use_convert_ham_r=1,
+    )
 
-        if socket.gethostname() == "toki":
-            # ma.qsub_pyprogram("ma_quantities.py")
-            # ma.qsub_pyprogram("angle_dep.py")
-            # ma.qsub_pyprogram("mae_convergence.py")
-            # ma.qsub_pyprogram("bandfilling.py")
-            # ma.qsub_pyprogram("lam_dep.py")
-            pass
-        elif socket.gethostname() == "zodiac":
-            # ma.bsub_pyprogram("ma_quantities.py")
-            # ma.bsub_pyprogram("angle_dep.py")
-            # ma.bsub_pyprogram("mae_convergence.py")
-            # ma.bsub_pyprogram("bandfilling.py")
-            # ma.bsub_pyprogram("lam_dep.py")
-            pass
-        else:
-            print("\nhostname is not toki or zodiac.")
+    if socket.gethostname() == "toki":
+        ma.qsub_pyprogram("ma_quantities.py", use_mpi=True, nproc=10, group="GroupD")
+        # ma.qsub_pyprogram("angle_dep.py", use_mpi=True, nproc=22, group="GroupC")
+        # ma.qsub_pyprogram("mae_convergence.py")
+        # ma.qsub_pyprogram("bandfilling.py")
+        # ma.qsub_pyprogram("lam_dep.py")
+        pass
+    elif socket.gethostname() == "zodiac":
+        # ma.bsub_pyprogram("ma_quantities.py")
+        # ma.bsub_pyprogram("angle_dep.py")
+        # ma.bsub_pyprogram("mae_convergence.py")
+        # ma.bsub_pyprogram("bandfilling.py")
+        # ma.bsub_pyprogram("lam_dep.py")
+        pass
+    else:
+        print("\nhostname is not toki or zodiac.")

@@ -332,7 +332,7 @@ class MagRotation:
                 f.write(line + "\n")
             for j, (m, n) in product(range(nrpts), product(range(num_wann), repeat=2)):
                 f.write("\t".join(map(str, irvec[j])) + "\t")
-                f.write("\t".join(map(str, [n, m])) + "\t")
+                f.write("\t".join(map(str, [n + 1, m + 1])) + "\t")
                 f.write(
                     "\t".join(
                         map(

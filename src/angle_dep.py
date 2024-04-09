@@ -56,7 +56,8 @@ class Angle_dep:
             for p_j in phi:
                 energy = self.func((t_i, p_j), params)
                 with open("angle_dep.txt", "a") as f:
-                    f.write(str(energy) + "\n")
+                    if np.any(energy != None):
+                        f.write(str(energy) + "\n")
 
     def read(self):
         """angle_dep.txt の結果を読み込み、行列の形に返す。"""

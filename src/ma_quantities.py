@@ -6,7 +6,7 @@ Todo:
     * 同じ元素が複数ある場合に、 orbitals がバグっている。
 
 Example:
-    Write the results of the physical quantity calculation in mp_folder/result.toml.
+    Write the results of the physical quantity calculation in result.toml.
     >>> cd path/to/input_params.toml
     >>> mpirun -n 8 python ma_quantities.py
 """
@@ -16,6 +16,9 @@ import os
 import numpy as np
 import h5py
 import toml
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
 
 from mag_rotation import MagRotation
 from parallel_eigval import ParallelEigval
@@ -93,14 +96,9 @@ class MaQuantities:
                 num_valence, self.orbitals, work_dir=work_dir
             )
 
-    def _diag(self, ki, ham_r: MagRotation, klist):
-        """used for multiprocessing."""
-        ham_k = HamK(ham_r, klist[ki, :], diagonalize=True)
-        return ham_k.ek
-
     def diag_in_all_k(
-        self, ham_r: MagRotation, klist: np.ndarray
-    ) -> Tuple[np.ndarray, np.ndarray]:
+        self, ham_r: MagRotation, klist: np.ndarray,
+    ) -> Tuple[Optional[np.ndarray], Optional[np.ndarray]]:
         """calculate energy eigenvalues and eigenstates for all k points in klist.
 
         Args:
@@ -120,13 +118,17 @@ class MaQuantities:
         else:
             # Multi-processing to calculate only eigvals.
             parallel = ParallelEigval(ham_r, klist)
-            energy = parallel.energy
+            energy = None
+            if np.any(parallel.rank==0):
+                energy = parallel.energy
+                logging.debug(f"Number of processes: {parallel.nproc} \n")
+                logging.debug(type(energy), np.shape(energy))
             eigvec = None
         return energy, eigvec
 
     def sort_energy(
-        self, energy: np.ndarray, eigvec: np.ndarray
-    ) -> Tuple[np.ndarray, np.ndarray]:
+        self, energy: Optional[np.ndarray], eigvec: Optional[np.ndarray]
+    ) -> Tuple[np.ndarray, Optional[np.ndarray]]:
         """sort eigenvalues and eigenstates in increasing order of energy eigenvalue.
 
         Args:
@@ -137,9 +139,10 @@ class MaQuantities:
             sorted_energy: List of energy eigenvalues after sorting in (num_wann * klen) array.
             sorted_eigvec: List of energy eigenstates after sorting in (num_wann, num_wann * klen) array.
         """
-        idx = np.argsort(energy.reshape(self.num_wann * self.klen), kind="heapsort")
-        sorted_energy = energy.reshape(self.num_wann * self.klen)[idx]
-        sorted_eigvec = None
+        sorted_energy, sorted_eigvec = None, None
+        if np.any(energy != None):
+            idx = np.argsort(energy.reshape(self.num_wann * self.klen), kind="heapsort")
+            sorted_energy = energy.reshape(self.num_wann * self.klen)[idx]
         if self.calc_spin_angular_momentum or self.calc_orbital_angular_momentum:
             sorted_eigvec = eigvec.reshape(self.num_wann, self.num_wann * self.klen)[
                 :, idx
@@ -147,7 +150,7 @@ class MaQuantities:
         return sorted_energy, sorted_eigvec
 
     def calc_fermi_and_free_energy(
-        self, sorted_energy: np.ndarray, num_valence: int
+        self, sorted_energy: Optional[np.ndarray], num_valence: int
     ) -> Tuple[float, float]:
         """calculate Fermi energy and free energy.
 
@@ -158,8 +161,10 @@ class MaQuantities:
         Returns:
             tuple[:2]: Tuple of Fermi energy and free energy.
         """
-        fermi_energy = sorted_energy[num_valence * self.klen - 1]
-        free_energy = np.sum(sorted_energy[0 : (num_valence * self.klen)]) / self.klen
+        fermi_energy, free_energy = None, None
+        if np.any(sorted_energy != None):
+            fermi_energy = sorted_energy[num_valence * self.klen - 1]
+            free_energy = np.sum(sorted_energy[0 : (num_valence * self.klen)]) / self.klen
         return fermi_energy, free_energy
 
     def _write_eigvals_and_eigvecs(self, work_dir: Path):
@@ -453,23 +458,23 @@ if __name__ == "__main__":
         win_file=win_file,
         # work_dir=mp_folder,
     )
-
-    result_contents = {
-        "atoms": mae_z.ws.win.atom_list,
-        "orbitals": mae_z.orbitals,
-        "extract_only_x_component": params["extract_only_x_component"],
-        "use_convert_ham_r": params["use_convert_ham_r"],
-        "Nk": Nk,
-        "E_F [eV]": float(mae_z.fermi_energy),
-        "dE[100] [meV]": float((mae_x.free_energy - mae_z.free_energy) * 10 ** 3),
-        "M_diff_max [meV]": float(
-            np.max(np.abs(ham_z.mag_extracted - ham_z.mag_orig)) * 10 ** 3
-        ),
-        "M_diff_ave [meV]": float(
-            np.mean(np.abs(ham_z.mag_extracted - ham_z.mag_orig)) * 10 ** 3
-        ),
-        # "spin_moment [mu_B]": [float(_) for _ in mae_z.spin_angular_momentum],
-        # "orbital_moment [mu_B]": [float(_) for _ in mae_z.orbital_angular_momentum],
-    }
+    if np.any(mae_z.fermi_energy != None):
+        result_contents = {
+            "atoms": mae_z.ws.win.atom_list,
+            "orbitals": mae_z.orbitals,
+            "extract_only_x_component": params["extract_only_x_component"],
+            "use_convert_ham_r": params["use_convert_ham_r"],
+            "Nk": Nk,
+            "E_F [eV]": float(mae_z.fermi_energy),
+            "dE[100] [meV]": float((mae_x.free_energy - mae_z.free_energy) * 10 ** 3),
+            "M_diff_max [meV]": float(
+                np.max(np.abs(ham_z.mag_extracted - ham_z.mag_orig)) * 10 ** 3
+            ),
+            "M_diff_ave [meV]": float(
+                np.mean(np.abs(ham_z.mag_extracted - ham_z.mag_orig)) * 10 ** 3
+            ),
+            # "spin_moment [mu_B]": [float(_) for _ in mae_z.spin_angular_momentum],
+            # "orbital_moment [mu_B]": [float(_) for _ in mae_z.orbital_angular_momentum],
+        }
     with open(mp_folder / "result.toml", "w") as f:
         toml.dump(result_contents, f)
