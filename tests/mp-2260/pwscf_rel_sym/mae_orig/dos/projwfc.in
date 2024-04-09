@@ -1,5 +1,0 @@
-&projwfc
-prefix = 'pwscf'
-outdir = './work'
-degauss = 0.01
-/

@@ -1,16 +1,8 @@
-angle_dep: Nk=10, convert=?, 全角度について計算; obsolete
-angle_dep1: Nk=30, convert=?; obsolete
-angle_dep2: Nk=40, 純虚数対角成分を含めた; obsolete
-angle_dep3: Nk=40, extract=F, convert=F; obsolete
-angle_dep4: Nk=60, convert=F
+angle_dep4: Nk=60, extract=T, convert=F
 angle_dep_light: Nk=100, extract=T, convert=F
 
-bandfilling: Nk=60, convert=F
-bandfilling1: Nk=60, convert=T; obsolete
-bandfilling2: Nk=60, 準拠数対角成分を含めた; obsolete
 bandfilling3: Nk=100, convert=F
 
-lam_dep: Nk=100, extract=T, convert=F
+lam_dep: Nk=100, convert=F
 
 mae_conv: extract=T, convert=F
-mae_conv1: 純虚数対角成分を含めた; obsolete

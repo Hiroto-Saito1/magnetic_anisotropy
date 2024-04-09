@@ -1,11 +1,10 @@
 論文 "Efficient Calculation of Magnetocrystalline Anisotropy Energy Using Symmetry-Adapted Wannier Functions" に用いたプログラムとテストデータ。
 
 Branch:
-    * main: trs_wannier からインポート
-    * paper: 論文で用いたテストとプログラムの整理
+    * main: 論文で用いたテストとプログラムの整理
 
 Todo:
     * magnetic_anisotropy から余剰な機能を消去する
         ** src の整理
-        * test の整理
+        ** tests の整理
 
