@@ -44,7 +44,7 @@ class Angle_dep:
         """phi 45, theta 45 の4度刻みのメッシュでエネルギーを計算し、結果を angle_dep.txt に書き込む。"""
         with open("input_params.toml", "r") as f:
             params = toml.load(f)
-            
+
         with open(params["angle_dep_file_name"], "w") as f:
             f.write("Nk = {}\n".format(params["Nk"]))
             f.write("E [eV]\n")
@@ -53,13 +53,13 @@ class Angle_dep:
         for t_i in np.linspace(0, np.pi, 45):
             energy = self.func((t_i, 0), params)
             with open(params["angle_dep_file_name"], "a") as f:
-                    f.write(str(energy) + "\n")
+                f.write(str(energy) + "\n")
         with open(params["angle_dep_file_name"], "a") as f:
             f.write("(phi, theta) = (phi, pi/2)\n")
         for p_j in np.linspace(0, np.pi, 45):
-                energy = self.func((np.pi/2, p_j), params)
-                with open(params["angle_dep_file_name"], "a") as f:
-                    f.write(str(energy) + "\n")
+            energy = self.func((np.pi / 2, p_j), params)
+            with open(params["angle_dep_file_name"], "a") as f:
+                f.write(str(energy) + "\n")
 
 
 if __name__ == "__main__":

@@ -46,7 +46,7 @@ class Angle_dep:
         """phi 45, theta 45 の4度刻みのメッシュでエネルギーを計算し、結果を angle_dep.txt に書き込む。"""
         with open("input_params.toml", "r") as f:
             params = toml.load(f)
-            
+
         with open("angle_dep.txt", "w") as f:
             f.write("Nk = {}\n".format(params["Nk"]))
             f.write("E [eV]\n")
@@ -90,7 +90,7 @@ class Angle_dep:
             data = toml.load(f)
         data["min_angle(theta, phi)"] = [float(_ * 180 / np.pi) for _ in res_min.x]
         data["max_angle(theta, phi)"] = [float(_ * 180 / np.pi) for _ in res_max.x]
-        data["dE_opt [meV]"] = float(-res_max.fun - res_min.fun)*10**3
+        data["dE_opt [meV]"] = float(-res_max.fun - res_min.fun) * 10 ** 3
         with open("result.toml", "w") as f:
             toml.dump(data, f)
 

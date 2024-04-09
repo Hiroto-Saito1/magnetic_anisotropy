@@ -42,7 +42,7 @@ def main():
     with open(Path(params["mp_folder"]) / "mae_conv.txt", "w") as f:
         f.write("Nk\t" + "dE[100] \t" + "diff\n")
 
-    while (iter < 100):
+    while iter < 100:
         with open(Path(params["mp_folder"]) / "mae_conv.txt", "a") as f:
             f.write(str(Nk) + "\t")
         mae_z = MaQuantities(

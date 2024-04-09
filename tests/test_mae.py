@@ -21,13 +21,9 @@ nnkp_file = Path(tests_path) / "mp-2260/pwscf_rel_sym/mae/wan/pwscf.nnkp"
 work_dir = Path(tests_path) / "mp-2260/"
 
 
-"""
 def test_E_F():
     # フェルミエネルギーが単一コアと並列化で一致するか？
-    ham_rotated = MagRotation(
-        tb_dat=tb_dat,
-        extract_only_x_component=True,
-    )
+    ham_rotated = MagRotation(tb_dat=tb_dat, extract_only_x_component=True,)
     Nk = 20
     mae_serial = MaQuantities(
         ham_rotated, num_valence, kmesh=[Nk, Nk, Nk], win_file=win_file
@@ -41,9 +37,9 @@ def test_E_F():
     )
     assert mae_serial.sorted_eigvec == None  # Dose the parallelization work?
     assert np.abs(mae_serial.fermi_energy - mae_parallel.fermi_energy) < 1e-9
+
+
 """
-
-
 def test_spin_moment():
     # Is the spin angular momentum correct?
     ham_rotated = MagRotation(
@@ -75,7 +71,7 @@ def test_work_dir():
     assert np.abs(mae.spin_angular_momentum[0] - -3.309276760889407) < 1e-9
     assert np.abs(mae.spin_angular_momentum[1] - -2.2888910608988565e-6) < 1e-9
     assert np.abs(mae.spin_angular_momentum[2] - -2.2947263418540696e-6) < 1e-9
-
+"""
 
 """
 def test_orbital_moment():
@@ -103,13 +99,10 @@ def test_orbital_moment():
 def test_write_hr():
     # 磁化回転後の hr.dat が正しく書き出せているか？
     ham_orig = MagRotation(
-        hr_dat=hr_dat,
-        extract_only_x_component=False,
-        write_rotated_hr=True,
+        hr_dat=hr_dat, extract_only_x_component=False, write_rotated_hr=True,
     )
     ham_rot = MagRotation(
-        hr_dat=hr_dat.parent / "pwscf_rot_hr.dat",
-        extract_only_x_component=False,
+        hr_dat=hr_dat.parent / "pwscf_rot_hr.dat", extract_only_x_component=False,
     )
     assert np.all(np.abs(ham_orig.hrs - ham_rot.hrs) < 1e-10)
 

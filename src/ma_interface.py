@@ -125,11 +125,7 @@ class MaInterface:
                 return True
         return False
 
-    def read_num_valence(
-        self,
-        path_to_scf_out: Path,
-        path_to_pwscf_win: Path,
-    ) -> int:
+    def read_num_valence(self, path_to_scf_out: Path, path_to_pwscf_win: Path,) -> int:
         """scf.out と pwscf.win から価電子数を計算する。"""
         scf_out = open(path_to_scf_out, "r")
         num_line = sum([1 for _ in open(path_to_scf_out, "r")])

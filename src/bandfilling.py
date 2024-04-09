@@ -120,8 +120,8 @@ class Bandfilling:
             int(params["num_valence"]) - 2, int(params["num_valence"]) + 2, self.L
         )
         data = pd.read_table("./bandfilling.txt")
-        plt.plot(band_filling, data.iloc[:, 0] * 10**3, label="with extraction")
-        plt.plot(band_filling, data.iloc[:, 1] * 10**3, label="w/o extraction")
+        plt.plot(band_filling, data.iloc[:, 0] * 10 ** 3, label="with extraction")
+        plt.plot(band_filling, data.iloc[:, 1] * 10 ** 3, label="w/o extraction")
         plt.grid()
         plt.axvline(x=int(params["num_valence"]), color="grey")
         plt.legend()

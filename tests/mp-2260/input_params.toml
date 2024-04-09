@@ -1,8 +1,8 @@
-src_dir = "/Users/saitohiroto/Library/CloudStorage/Dropbox/AnacondaProjects/是常研究室/2023/magnetic_anisotropy/src"
-tb_dat = "/Users/saitohiroto/Library/CloudStorage/Dropbox/AnacondaProjects/是常研究室/2023/magnetic_anisotropy/tests/mp-2260/pwscf_rel_sym/mae1/wan/pwscf_py_tb.dat"
-win_file = "/Users/saitohiroto/Library/CloudStorage/Dropbox/AnacondaProjects/是常研究室/2023/magnetic_anisotropy/tests/mp-2260/pwscf_rel_sym/mae1/pwscf.win"
-nnkp_file = "/Users/saitohiroto/Library/CloudStorage/Dropbox/AnacondaProjects/是常研究室/2023/magnetic_anisotropy/tests/mp-2260/pwscf_rel_sym/mae1/wan/pwscf.nnkp"
-mp_folder = "/Users/saitohiroto/Library/CloudStorage/Dropbox/AnacondaProjects/是常研究室/2023/magnetic_anisotropy/tests/mp-2260"
+src_dir = "/home/hirotosaito/MaterialsProject/mag20230425/magnetic_anisotropy/src"
+tb_dat = "/home/hirotosaito/MaterialsProject/mag20230425/magnetic_anisotropy/tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_tb.dat"
+win_file = "/home/hirotosaito/MaterialsProject/mag20230425/magnetic_anisotropy/tests/mp-2260/pwscf_rel_sym/mae/pwscf.win"
+nnkp_file = "/home/hirotosaito/MaterialsProject/mag20230425/magnetic_anisotropy/tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf.nnkp"
+mp_folder = "/home/hirotosaito/MaterialsProject/mag20230425/magnetic_anisotropy/tests/mp-2260"
 extract_only_x_component = 1
 use_convert_ham_r = 0
 Nk = 10

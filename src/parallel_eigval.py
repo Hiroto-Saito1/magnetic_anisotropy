@@ -87,8 +87,10 @@ if __name__ == "__main__":
     klist = get_klist(Nk, Nk, Nk)
     ham_r = HamR(hr_dat=Path("../tests/mp-2260/pwscf_rel_sym/mae/wan/pwscf_py_hr.dat"))
     parallel = ParallelEigval(ham_r, klist)
+    print(parallel.nproc)
+    print(type(parallel.energy), np.shape(parallel.energy))
     if parallel.rank == 0:
-        print(np.shape(parallel.energy))
+        # print(np.shape(parallel.energy))
         walltime = time.time() - t_start
         print(f"fin: {walltime:.3f} sec")
 
