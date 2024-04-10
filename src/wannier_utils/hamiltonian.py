@@ -33,10 +33,10 @@ class HamR:
     """
 
     def __init__(
-        self, 
-        tb_dat: Optional[Path] = None, 
-        hr_dat: Optional[Path] = None, 
-        is_reorder: bool = False, 
+        self,
+        tb_dat: Optional[Path] = None,
+        hr_dat: Optional[Path] = None,
+        is_reorder: bool = False,
     ):
         """
         Constructor.
@@ -60,7 +60,7 @@ class HamR:
         Additional attributes:
             Amnrs: Wannier-based position matrix in (nrpts, num_wann, num_wann, 3) array.
         """
-        logger.info("Reading {} ...".format(str(tb_dat)))
+
         try:
             if tb_dat.is_file():
                 fp = open(tb_dat, mode="r")
@@ -68,7 +68,7 @@ class HamR:
                 fp = gzip.open(tb_dat.with_suffix(tb_dat.suffix + ".gz"), mode="rt")
             else:
                 raise ValueError("{} is not found.".format(str(tb_dat)))
-            fp.readline()   # empty line
+            fp.readline()  # empty line
             self.a = np.zeros((3, 3), dtype=np.float64)
             for i in range(3):
                 self.a[i] = np.array([float(x) for x in fp.readline().split()])
@@ -76,17 +76,20 @@ class HamR:
             self.nrpts = int(fp.readline())
 
             ndegen = []
-            for i in range(self.nrpts//15 + 1):
+            for i in range(self.nrpts // 15 + 1):
                 ndegen += map(int, fp.readline().split())
-                if len(ndegen) >= self.nrpts: break
+                if len(ndegen) >= self.nrpts:
+                    break
             self.ndegen = np.array(ndegen, dtype=np.int64)
 
-            self.hrs = np.zeros((self.nrpts, self.num_wann, self.num_wann), dtype=np.complex128)
+            self.hrs = np.zeros(
+                (self.nrpts, self.num_wann, self.num_wann), dtype=np.complex128
+            )
             self.irvec = np.zeros((self.nrpts, 3), dtype=np.int64)
 
             self.ir0 = -1
             for i in range(self.nrpts):
-                fp.readline()   # empty line
+                fp.readline()  # empty line
                 (irx, iry, irz) = fp.readline().split()
                 self.irvec[i] = np.array([int(x) for x in [irx, iry, irz]])
                 if np.all(self.irvec[i] == 0):
@@ -95,46 +98,38 @@ class HamR:
                     (_, _, tr, ti) = fp.readline().split()
                     if is_reorder:
                         # VASP, wannier ver1. etc
-                        mr = m//2 + (self.num_wann//2)*(m%2)
-                        nr = n//2 + (self.num_wann//2)*(n%2)
-                        self.hrs[i, nr, mr] = float(tr) + float(ti)*1j
+                        mr = m // 2 + (self.num_wann // 2) * (m % 2)
+                        nr = n // 2 + (self.num_wann // 2) * (n % 2)
+                        self.hrs[i, nr, mr] = float(tr) + float(ti) * 1j
                     else:
                         # normal order
-                        self.hrs[i, n, m] = float(tr) + float(ti)*1j
+                        self.hrs[i, n, m] = float(tr) + float(ti) * 1j
 
             self.Amnrs = np.zeros(
-                (self.nrpts, self.num_wann, self.num_wann, 3), 
-                dtype=np.complex128, 
+                (self.nrpts, self.num_wann, self.num_wann, 3),
+                dtype=np.complex128,
             )
             a = np.zeros((3), dtype=np.complex128)
             for i in range(self.nrpts):
                 fp.readline()  # empty line
                 (irx, iry, irz) = fp.readline().split()
                 self.irvec[i] = np.array([int(x) for x in [irx, iry, irz]])
-                if (np.all(self.irvec[i] == 0)):
+                if np.all(self.irvec[i] == 0):
                     self.ir0 = i
                 for m, n in product(range(self.num_wann), repeat=2):
                     (_, _, axr, axi, ayr, ayi, azr, azi) = fp.readline().split()
-                    a[0] = float(axr) + 1j*float(axi)
-                    a[1] = float(ayr) + 1j*float(ayi)
-                    a[2] = float(azr) + 1j*float(azi)
+                    a[0] = float(axr) + 1j * float(axi)
+                    a[1] = float(ayr) + 1j * float(ayi)
+                    a[2] = float(azr) + 1j * float(azi)
                     if is_reorder:
                         # VASP, wannier ver1. etc
-                        mr = m//2 + (self.num_wann//2)*(m%2)
-                        nr = n//2 + (self.num_wann//2)*(n%2)
+                        mr = m // 2 + (self.num_wann // 2) * (m % 2)
+                        nr = n // 2 + (self.num_wann // 2) * (n % 2)
                         self.Amnrs[i, nr, mr, :] = a[:]
                     else:
                         # normal order
                         self.Amnrs[i, n, m, :] = a[:]
             fp.close()
-
-            logger.info("Reading {} is Done.".format(str(tb_dat)))
-            logger.debug("Wannier center from Amnrs:")
-            for n in range(self.num_wann):
-                logger.debug(
-                    "{0:3d} {1[0]:15.8f} {1[1]:15.8f} {1[2]:15.8f}"\
-                    .format(n, self.Amnrs[self.ir0, n, n, :].real)
-                )
 
         except Exception:
             logger.error(format_exc())
@@ -143,7 +138,7 @@ class HamR:
         """
         read wannier_hr.dat file.
         """
-        logger.info("Reading {} ...".format(str(hr_dat)))
+
         try:
             if hr_dat.is_file():
                 fp = open(hr_dat, mode="r")
@@ -151,35 +146,39 @@ class HamR:
                 fp = gzip.open(hr_dat.with_suffix(hr_dat.suffix + ".gz"), "rt")
             else:
                 raise ValueError("{} is not found.".format(str(hr_dat)))
-            fp.readline()   # empty line
+            fp.readline()  # empty line
             self.num_wann = int(fp.readline())
             self.nrpts = int(fp.readline())
 
             ndegen = []
-            for i in range(self.nrpts//15 + 1):
+            for i in range(self.nrpts // 15 + 1):
                 ndegen += map(int, fp.readline().split())
-                if len(ndegen) >= self.nrpts: break
+                if len(ndegen) >= self.nrpts:
+                    break
             self.ndegen = np.array(ndegen)
 
-            self.hrs = np.zeros((self.nrpts, self.num_wann, self.num_wann), dtype=np.complex128)
+            self.hrs = np.zeros(
+                (self.nrpts, self.num_wann, self.num_wann), dtype=np.complex128
+            )
             self.irvec = np.zeros((self.nrpts, 3), dtype=np.int64)
             self.ir0 = -1
-            for i, (m, n) in product(range(self.nrpts), product(range(self.num_wann), repeat=2)):
+            for i, (m, n) in product(
+                range(self.nrpts), product(range(self.num_wann), repeat=2)
+            ):
                 (irx, iry, irz, _, _, tr, ti) = fp.readline().split()
-                if (m == 0 and n == 0):
+                if m == 0 and n == 0:
                     self.irvec[i] = np.array([int(x) for x in [irx, iry, irz]])
                     if np.all(self.irvec[i] == 0):
                         self.ir0 = i
                 if is_reorder:
                     # VASP, wannier ver1. etc
-                    mr = m//2 + (self.num_wann//2)*(m%2)
-                    nr = n//2 + (self.num_wann//2)*(n%2)
-                    self.hrs[i, nr, mr] = float(tr) + float(ti)*1j
+                    mr = m // 2 + (self.num_wann // 2) * (m % 2)
+                    nr = n // 2 + (self.num_wann // 2) * (n % 2)
+                    self.hrs[i, nr, mr] = float(tr) + float(ti) * 1j
                 else:
                     # normal order
-                    self.hrs[i, n, m] = float(tr) + float(ti)*1j
+                    self.hrs[i, n, m] = float(tr) + float(ti) * 1j
             fp.close()
-            logger.info("Reading {} is Done.".format(str(hr_dat)))
 
         except Exception:
             logger.error(format_exc())
@@ -191,14 +190,16 @@ class HamR:
                 fp.write(str(self.num_wann) + "\n")
                 fp.write(str(self.nrpts) + "\n")
                 ndeg_str = "%5d" * self.nrpts % tuple(self.ndegen)
-                fp.writelines([ndeg_str[i:i + 75] + "\n" for i in range(0, len(ndeg_str), 75)])
-                for i, (m, n) in product(range(self.nrpts), product(range(self.num_wann), repeat=2)):
+                fp.writelines(
+                    [ndeg_str[i : i + 75] + "\n" for i in range(0, len(ndeg_str), 75)]
+                )
+                for i, (m, n) in product(
+                    range(self.nrpts), product(range(self.num_wann), repeat=2)
+                ):
                     hr = self.hrs[i, n, m]
                     fp.write(
-                        ("%5d" * 5 + "%12.6f" * 2 + "\n") % \
-                        (tuple(self.irvec[i]) + \
-                            (n + 1, m + 1, hr.real, hr.imag)
-                        )
+                        ("%5d" * 5 + "%12.6f" * 2 + "\n")
+                        % (tuple(self.irvec[i]) + (n + 1, m + 1, hr.real, hr.imag))
                     )
         except:
             raise ValueError("Failed to export to {}.".format(str(file_name)))
@@ -228,7 +229,7 @@ def merge(ham_r1: HamR, ham_r2: HamR, weight1: float, weight2: float) -> HamR:
         HamR: superposed HamR instances.
     """
     ham_r_copy = deepcopy(ham_r1)
-    ham_r_copy.hrs = ham_r1.hrs*weight1 + ham_r2.hrs*weight2
+    ham_r_copy.hrs = ham_r1.hrs * weight1 + ham_r2.hrs * weight2
     return ham_r_copy
 
 
@@ -255,10 +256,10 @@ class HamK:
     Args:
         ham_r (HamR): a HamR instance.
         k (np.ndarray): a k point in fractional coordinates.
-        rc (Optional[np.ndarray]): position of Wannier centers in fractional coordinates, 
-                                   (num_wann, 3) numpy array. 
+        rc (Optional[np.ndarray]): position of Wannier centers in fractional coordinates,
+                                   (num_wann, 3) numpy array.
                                    defaults to None.
-        diagonalize (bool): whether to get eigenvalues and eigenvectors, 
+        diagonalize (bool): whether to get eigenvalues and eigenvectors,
                             defaults to False.
 
     Attributes:
@@ -267,21 +268,27 @@ class HamK:
         ek (np.ndarray): eigenvalues of H(k).
         uk (np.ndarray): eigenvectors of H(k).
 
-    Notes: 
-        See Yates et al., PRB 75, 195121 (2007) for naming convention of 
+    Notes:
+        See Yates et al., PRB 75, 195121 (2007) for naming convention of
         instance variables in this class.
     """
+
     def __init__(
-        self, 
-        ham_r: HamR, 
-        k: np.ndarray, 
-        rc: Optional[np.ndarray] = None, 
-        diagonalize: bool = False, 
+        self,
+        ham_r: HamR,
+        k: np.ndarray,
+        rc: Optional[np.ndarray] = None,
+        diagonalize: bool = False,
     ):
         self.ham_r = ham_r
         self.k = k
         self.rc = rc
-        self.exp_kr = np.exp(2*np.pi*1j*np.einsum("a,ja->j", self.k, self.ham_r.irvec, optimize=True))
+        self.exp_kr = np.exp(
+            2
+            * np.pi
+            * 1j
+            * np.einsum("a,ja->j", self.k, self.ham_r.irvec, optimize=True)
+        )
         self._HW, self._HWa = self._get_matrix()
         if diagonalize:
             self.ek, self.uk = np.linalg.eigh(self.hk)
@@ -291,34 +298,47 @@ class HamK:
         calculate H(k) and H_a(k) = dH(k)/da.
         """
         if self.rc is None:
-            exp_kr = self.exp_kr/self.ham_r.ndegen
+            exp_kr = self.exp_kr / self.ham_r.ndegen
             HW = np.einsum("jmn,j->mn", self.ham_r.hrs, exp_kr, optimize=True)
-            r_exp_kr = 1j*np.einsum("ja,j->ja", self.ham_r.irvec, exp_kr, optimize=True)
+            r_exp_kr = 1j * np.einsum(
+                "ja,j->ja", self.ham_r.irvec, exp_kr, optimize=True
+            )
             HWa = np.einsum("jkl,ja->akl", self.ham_r.hrs, r_exp_kr, optimize=True)
             return HW, HWa
-        #kr = np.einsum("a,mnja->mnj", self.k, rvec, optimize=True)
-        #exp_kr = np.exp(2*np.pi*1j*kr)/self.ham_r.ndegen[None, None, :]
-        exp_krc = np.exp(2*np.pi*1j*np.einsum("a,ja->j", self.k, self.rc, optimize=True))
-        exp_kr_krc = self.exp_kr[:, None, None]*exp_krc.conj()[None, :, None]*exp_krc[None, None, :]
-        HW = np.einsum("jmn,jmn->mn", self.ham_r.hrs, exp_kr_krc, optimize=True)
-        #HW = np.einsum(
-        #    "jmn,j,m,n->mn", 
-        #    self.ham_r.hrs, self.exp_kr, np.conj(exp_krc), exp_krc, 
-        #    optimize=True, 
-        #)
-
-        rvec = self.ham_r.irvec[:, None, None, :] \
-               - self.rc[None, :, None, :] + self.rc[None, None, :, :]
-        HWa = 1j*np.einsum(
-            "jmn,jmna,jmn->amn", 
-            self.ham_r.hrs, rvec, exp_kr_krc, 
-            optimize=True, 
+        # kr = np.einsum("a,mnja->mnj", self.k, rvec, optimize=True)
+        # exp_kr = np.exp(2*np.pi*1j*kr)/self.ham_r.ndegen[None, None, :]
+        exp_krc = np.exp(
+            2 * np.pi * 1j * np.einsum("a,ja->j", self.k, self.rc, optimize=True)
         )
-        #HWa = 1j*np.einsum(
+        exp_kr_krc = (
+            self.exp_kr[:, None, None]
+            * exp_krc.conj()[None, :, None]
+            * exp_krc[None, None, :]
+        )
+        HW = np.einsum("jmn,jmn->mn", self.ham_r.hrs, exp_kr_krc, optimize=True)
+        # HW = np.einsum(
+        #    "jmn,j,m,n->mn",
+        #    self.ham_r.hrs, self.exp_kr, np.conj(exp_krc), exp_krc,
+        #    optimize=True,
+        # )
+
+        rvec = (
+            self.ham_r.irvec[:, None, None, :]
+            - self.rc[None, :, None, :]
+            + self.rc[None, None, :, :]
+        )
+        HWa = 1j * np.einsum(
+            "jmn,jmna,jmn->amn",
+            self.ham_r.hrs,
+            rvec,
+            exp_kr_krc,
+            optimize=True,
+        )
+        # HWa = 1j*np.einsum(
         #    "jmn,jmna,j,m,n->amn",
-        #    self.ham_r.hrs, rvec, exp_kr, np.conj(exp_krc), exp_krc, 
-        #    optimize=True, 
-        #)
+        #    self.ham_r.hrs, rvec, exp_kr, np.conj(exp_krc), exp_krc,
+        #    optimize=True,
+        # )
         return HW, HWa
 
     @property
@@ -337,11 +357,14 @@ class HamK:
         """
         return \bar{H}^(H)_a = dH^(H)/da in size of (3, num_wann, num_wann).
         """
-        if not hasattr(self, "uk"): _, self.uk = np.linalg.eigh(self.hk)
+        if not hasattr(self, "uk"):
+            _, self.uk = np.linalg.eigh(self.hk)
         if not hasattr(self, "_HHa"):
             self._HHa = np.einsum(
-                "ji,ajk,kl->ail", 
-                self.uk.conj(), self.HWa, self.uk, 
+                "ji,ajk,kl->ail",
+                self.uk.conj(),
+                self.HWa,
+                self.uk,
                 optimize=True,
             )
         return self._HHa
@@ -351,11 +374,14 @@ class HamK:
         """
         return v_a = {H^(H)_a}_nn in size of (3, num_wann).
         """
-        if not hasattr(self, "uk"): _, self.uk = np.linalg.eigh(self.hk)
+        if not hasattr(self, "uk"):
+            _, self.uk = np.linalg.eigh(self.hk)
         if not hasattr(self, "_va"):
             self._va = np.einsum(
-                "ji,ajk,ki->ai", 
-                self.uk.conj(), self.HWa, self.uk, 
+                "ji,ajk,ki->ai",
+                self.uk.conj(),
+                self.HWa,
+                self.uk,
                 optimize=True,
             )
         return self._va
@@ -363,22 +389,29 @@ class HamK:
     @property
     def vmna(self) -> np.ndarray:
         """
-        return v_mna = \bar{H}^{H}_mna - i*(e_n - e_m)\bar{A}^{H}_mna in size of 
+        return v_mna = \bar{H}^{H}_mna - i*(e_n - e_m)\bar{A}^{H}_mna in size of
         (3, num_wann, num_wann).
         """
-        if not hasattr(self, "uk"): self.ek, self.uk = np.linalg.eigh(self.hk)
+        if not hasattr(self, "uk"):
+            self.ek, self.uk = np.linalg.eigh(self.hk)
         if not hasattr(self, "_vmna"):
             bHHmna = np.einsum(
-                "jm,ajk,kn->amn", 
-                self.uk.conj(), self.HWa, self.uk, 
-                optimize=True, 
+                "jm,ajk,kn->amn",
+                self.uk.conj(),
+                self.HWa,
+                self.uk,
+                optimize=True,
             )
             bAHmna = np.einsum(
-                "jm,jka,kn->amn", 
-                self.uk.conj(), self.AWmna, self.uk, 
-                optimize=True, 
+                "jm,jka,kn->amn",
+                self.uk.conj(),
+                self.AWmna,
+                self.uk,
+                optimize=True,
             )
-            self._vmna = bHHmna - 1j*(self.ek[None, None, :] - self.ek[None, :, None])*bAHmna
+            self._vmna = (
+                bHHmna - 1j * (self.ek[None, None, :] - self.ek[None, :, None]) * bAHmna
+            )
         return self._vmna
 
     @property
@@ -387,8 +420,10 @@ class HamK:
         return A^{W}_mna in size of (num_wann, num_wann, 3).
         """
         if not hasattr(self, "_AWmna"):
-            exp_kr = self.exp_kr/self.ham_r.ndegen
-            self._AWmna = np.einsum("jmna,j->mna", self.ham_r.Amnrs, exp_kr, optimize=True)
+            exp_kr = self.exp_kr / self.ham_r.ndegen
+            self._AWmna = np.einsum(
+                "jmna,j->mna", self.ham_r.Amnrs, exp_kr, optimize=True
+            )
         return self._AWmna
 
     @property
@@ -397,43 +432,49 @@ class HamK:
         return H^{W}_ab = d^{2}H^{W}/dadb in size of (3, 3, num_wann, num_wann).
         """
         if not hasattr(self, "_HWab"):
-            exp_kr = self.exp_kr/self.ham_r.ndegen
+            exp_kr = self.exp_kr / self.ham_r.ndegen
             exp_kr_ab = -np.einsum(
-                "ja,jb,j->jab", 
-                self.ham_r.irvec, self.ham_r.irvec, exp_kr, 
-                optimize=True, 
+                "ja,jb,j->jab",
+                self.ham_r.irvec,
+                self.ham_r.irvec,
+                exp_kr,
+                optimize=True,
             )
-            self._HWab = np.einsum("jab,jmn->abmn", exp_kr_ab, self.ham_r.hrs, optimize=True)
+            self._HWab = np.einsum(
+                "jab,jmn->abmn", exp_kr_ab, self.ham_r.hrs, optimize=True
+            )
         return self._HWab
-
 
     @property
     def DHa(self) -> np.ndarray:
         """
         return D^{H}_nma = H^{H}_nma/(e_m - e_n)
         """
-        if not hasattr(self, "ek"): self.ek = np.linalg.eigvalsh(self.hk)
+        if not hasattr(self, "ek"):
+            self.ek = np.linalg.eigvalsh(self.hk)
         if not hasattr(self, "_DHa"):
             ediff = self.ek[None, :] - self.ek[:, None]
             ind = np.abs(ediff) < 1e-6
             ediff[ind] = 1e-10
-            einv = 1/ediff
+            einv = 1 / ediff
             einv[ind] = 0
             self._DHa = np.einsum("amn,mn->amn", self.HHa, einv, optimize=True)
         return self._DHa
 
     @property
     def ma(self) -> np.ndarray:
-        """
-        """
-        if not hasattr(self, "uk"): _, self.uk = np.linalg.eigh(self.hk)
+        """ """
+        if not hasattr(self, "uk"):
+            _, self.uk = np.linalg.eigh(self.hk)
         if not hasattr(self, "_ma"):
             HHnnab = np.einsum(
-                "ji,abjk,ki->abi", 
-                self.uk.conj(), self.HWab, self.uk, 
+                "ji,abjk,ki->abi",
+                self.uk.conj(),
+                self.HWab,
+                self.uk,
                 optimize=True,
             )
-            HaDb = 2*np.einsum("aij,bji->abi", self.HHa, self.DHa).real
+            HaDb = 2 * np.einsum("aij,bji->abi", self.HHa, self.DHa).real
             self._ma = HHnnab + HaDb
         return self._ma
 
@@ -444,7 +485,8 @@ class HamK:
         Args:
             mat: Wannier-gauge matrix.
         """
-        if not hasattr(self, "uk"): _, self.uk = np.linalg.eigh(self.hk)
+        if not hasattr(self, "uk"):
+            _, self.uk = np.linalg.eigh(self.hk)
         return np.einsum("mp,mn,nq->pq", self.uk.conj(), mat, self.uk, optimize=True)
 
     def convert_ham_to_wan(self, mat: np.ndarray) -> np.ndarray:
@@ -454,7 +496,8 @@ class HamK:
         Args:
             mat: Hamlton-gauge matrix.
         """
-        if not hasattr(self, "uk"): _, self.uk = np.linalg.eigh(self.hk)
+        if not hasattr(self, "uk"):
+            _, self.uk = np.linalg.eigh(self.hk)
         return np.einsum("mp,pq,nq->mn", self.uk, mat, self.uk.conj(), optimize=True)
 
     def get_fermi(self, mu_range: np.ndarray, tmpr_range: np.ndarray) -> np.ndarray:
@@ -468,12 +511,17 @@ class HamK:
         Returns:
             (e.size, mu_range.size, tmpr_range.size) numpy array.
         """
-        if not hasattr(self, "ek"): self.ek = np.linalg.eigvalsh(self.hk)
-        tmpr_range_eV = tmpr_range*Boltzmann/eV
-        x = (self.ek[:, None, None] - mu_range[None, :, None])/tmpr_range_eV[None, None, :]
+        if not hasattr(self, "ek"):
+            self.ek = np.linalg.eigvalsh(self.hk)
+        tmpr_range_eV = tmpr_range * Boltzmann / eV
+        x = (self.ek[:, None, None] - mu_range[None, :, None]) / tmpr_range_eV[
+            None, None, :
+        ]
         return expit(-x)
 
-    def get_minus_d_fermi(self, mu_range: np.ndarray, tmpr_range: np.ndarray) -> np.ndarray:
+    def get_minus_d_fermi(
+        self, mu_range: np.ndarray, tmpr_range: np.ndarray
+    ) -> np.ndarray:
         """
         return minus-derivative of Fermi distribution function (-df/de).
 
@@ -484,7 +532,10 @@ class HamK:
         Returns:
             (e.size, mu_range.size, tmpr_range.size) numpy array.
         """
-        if not hasattr(self, "ek"): self.ek = np.linalg.eigh(self.hk)
-        tmpr_range_eV = tmpr_range*Boltzmann/eV
-        x = (self.ek[:, None, None] - mu_range[None, :, None])/tmpr_range_eV[None, None, :]
-        return expit(x)*expit(-x)/tmpr_range_eV[None, None, :]
+        if not hasattr(self, "ek"):
+            self.ek = np.linalg.eigh(self.hk)
+        tmpr_range_eV = tmpr_range * Boltzmann / eV
+        x = (self.ek[:, None, None] - mu_range[None, :, None]) / tmpr_range_eV[
+            None, None, :
+        ]
+        return expit(x) * expit(-x) / tmpr_range_eV[None, None, :]
