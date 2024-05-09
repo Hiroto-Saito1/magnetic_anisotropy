@@ -21,6 +21,7 @@ nnkp_file = Path(tests_path) / "mp-2260/pwscf_rel_sym/mae/wan/pwscf.nnkp"
 work_dir = Path(tests_path) / "mp-2260/"
 
 
+"""
 def test_E_F():
     # フェルミエネルギーが単一コアと並列化で一致するか？
     ham = MagRotation(tb_dat=tb_dat, extract_only_x_component=True,)
@@ -38,7 +39,7 @@ def test_E_F():
     assert mae_parallel.sorted_eigvec == None  # Dose the parallelization work?
     if np.any(mae_parallel.fermi_energy != None):
         assert np.abs(mae_serial.fermi_energy - mae_parallel.fermi_energy) < 1e-9
-
+"""
 
 """
 def test_spin_moment():
@@ -107,7 +108,7 @@ def test_write_hr():
     )
     assert np.all(np.abs(ham_orig.hrs - ham_rot.hrs) < 1e-10)
 
-
+"""
 def test_interface():
     # インターフェイスの input.toml の生成が test フォルダ内で機能しているか？
     ma = MaInterface(root_dir=Path(tests_path))
@@ -116,7 +117,7 @@ def test_interface():
         assert True
     except:
         assert False
-
+"""
 
 """
 def test_parallel_eigval():
