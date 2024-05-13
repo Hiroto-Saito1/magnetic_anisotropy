@@ -1,0 +1,3 @@
+wan_x: nscfにk点を全て書いた。x軸射影。
+wan_z: nscfにk点を全て書いた。z軸射影。
+symWannierを使うと、woutが最後のplottingで止まる。UNKファイルが全てのk点に拡張されていないことが原因?
