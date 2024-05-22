@@ -1,0 +1,207 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 116, in <module>
+    EnergyDiff()
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 27, in __init__
+    TB_EM, TB_OM, DFT = self.calc_sorted_energy(ham_TB_EM, ham_TB_OM, ham_DFT)
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 76, in calc_sorted_energy
+    TB_EM = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 116, in <module>
+    EnergyDiff()
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 27, in __init__
+    TB_EM, TB_OM, DFT = self.calc_sorted_energy(ham_TB_EM, ham_TB_OM, ham_DFT)
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 83, in calc_sorted_energy
+    TB_OM = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+Traceback (most recent call last):
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 116, in <module>
+    EnergyDiff()
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 28, in __init__
+    self.write_output_toml(TB_EM, TB_OM, DFT)
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 101, in write_output_toml
+    diff_TB_EM = np.mean(np.abs(TB_EM.sorted_energy - DFT.sorted_energy))
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 116, in <module>
+    EnergyDiff()
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 28, in __init__
+    self.write_output_toml(TB_EM, TB_OM, DFT)
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 101, in write_output_toml
+    diff_TB_EM = np.mean(np.abs(TB_EM.sorted_energy - DFT.sorted_energy))
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 116, in <module>
+    EnergyDiff()
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 28, in __init__
+    self.write_output_toml(TB_EM, TB_OM, DFT)
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 101, in write_output_toml
+    diff_TB_EM = np.mean(np.abs(TB_EM.sorted_energy - DFT.sorted_energy))
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 116, in <module>
+    EnergyDiff()
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 28, in __init__
+    self.write_output_toml(TB_EM, TB_OM, DFT)
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 101, in write_output_toml
+    diff_TB_EM = np.mean(np.abs(TB_EM.sorted_energy - DFT.sorted_energy))
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 116, in <module>
+Traceback (most recent call last):
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 116, in <module>
+    EnergyDiff()
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 28, in __init__
+    self.write_output_toml(TB_EM, TB_OM, DFT)
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 101, in write_output_toml
+    diff_TB_EM = np.mean(np.abs(TB_EM.sorted_energy - DFT.sorted_energy))
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 116, in <module>
+    EnergyDiff()
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 28, in __init__
+    self.write_output_toml(TB_EM, TB_OM, DFT)
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 101, in write_output_toml
+    diff_TB_EM = np.mean(np.abs(TB_EM.sorted_energy - DFT.sorted_energy))
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 116, in <module>
+    EnergyDiff()
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 28, in __init__
+    self.write_output_toml(TB_EM, TB_OM, DFT)
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 101, in write_output_toml
+    diff_TB_EM = np.mean(np.abs(TB_EM.sorted_energy - DFT.sorted_energy))
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 116, in <module>
+    EnergyDiff()
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 28, in __init__
+    EnergyDiff()
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 28, in __init__
+    self.write_output_toml(TB_EM, TB_OM, DFT)
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 101, in write_output_toml
+    diff_TB_EM = np.mean(np.abs(TB_EM.sorted_energy - DFT.sorted_energy))
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+    self.write_output_toml(TB_EM, TB_OM, DFT)
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 101, in write_output_toml
+    diff_TB_EM = np.mean(np.abs(TB_EM.sorted_energy - DFT.sorted_energy))
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 116, in <module>
+    EnergyDiff()
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 27, in __init__
+    TB_EM, TB_OM, DFT = self.calc_sorted_energy(ham_TB_EM, ham_TB_OM, ham_DFT)
+  File "/home/hirotosaito/magnetic_anisotropy/src/energy_diff.py", line 90, in calc_sorted_energy
+    DFT = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)

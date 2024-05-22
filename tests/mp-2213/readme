@@ -3,9 +3,5 @@ angle_dep_light: Nk=100, extract=T, convert=F
 angle_dep_light1: Nk=150, extract=T, convert=F
 
 bandfilling3: Nk=100, convert=F
-bandfilling4: Nk=150, convert=F
-
-lam_dep: Nk=150, convert=F
 lam_dep1: Nk=100, convert=F
-
 mae_conv: extract=T, convert=F
