@@ -37,8 +37,8 @@
   conv_thr = 1.d-8
 /
 ATOMIC_SPECIES
-Fe   55.845000  Fe.rel-pbe-spn-rrkjus_psl.0.2.1.UPF
-Pt   195.084000  Pt.rel-pbe-n-rrkjus_psl.0.1.UPF
+Fe   55.845000  Fe.pbe-spn-rrkjus_psl.0.2.1.UPF
+Pt   195.084000  Pt.pbe-n-rrkjus_psl.0.1.UPF
 
 ATOMIC_POSITIONS {crystal}
 Fe      0.0000000000     0.0000000000     0.0000000000
