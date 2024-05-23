@@ -4,7 +4,5 @@ Branch:
     * main: 論文で用いたテストとプログラムの整理
 
 Todo:
-    * magnetic_anisotropy から余剰な機能を消去する
-        ** src の整理
-        ** tests の整理
+    
 

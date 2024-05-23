@@ -1,0 +1,100 @@
+INFO:numexpr.utils:Note: NumExpr detected 44 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:numexpr.utils:Note: NumExpr detected 44 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:numexpr.utils:Note: NumExpr detected 44 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:numexpr.utils:Note: NumExpr detected 44 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:numexpr.utils:Note: NumExpr detected 44 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:numexpr.utils:Note: NumExpr detected 44 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:numexpr.utils:Note: NumExpr detected 44 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:numexpr.utils:Note: NumExpr detected 44 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:numexpr.utils:Note: NumExpr detected 44 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:numexpr.utils:Note: NumExpr detected 44 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/anaconda3/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/anaconda3/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/anaconda3/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/anaconda3/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home2/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 445, in <module>
+    mae_z = MaQuantities(
+  File "/home2/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/home2/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000),)
+Traceback (most recent call last):
+  File "/home2/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 480, in <module>
+Traceback (most recent call last):
+  File "/home2/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 480, in <module>
+Traceback (most recent call last):
+  File "/home2/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 480, in <module>
+Traceback (most recent call last):
+  File "/home2/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 480, in <module>
+    toml.dump(result_contents, f)
+NameError: name 'result_contents' is not defined
+    toml.dump(result_contents, f)
+NameError: name 'result_contents' is not defined
+    toml.dump(result_contents, f)
+NameError: name 'result_contents' is not defined
+    toml.dump(result_contents, f)
+NameError: name 'result_contents' is not defined
+Traceback (most recent call last):
+  File "/home2/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 480, in <module>
+    toml.dump(result_contents, f)
+NameError: name 'result_contents' is not defined
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home2/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 480, in <module>
+Traceback (most recent call last):
+  File "/home/hirotosaito/anaconda3/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/anaconda3/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/anaconda3/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/anaconda3/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+Traceback (most recent call last):
+  File "/home2/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 480, in <module>
+Traceback (most recent call last):
+  File "/home2/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 480, in <module>
+Traceback (most recent call last):
+  File "/home2/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 480, in <module>
+    toml.dump(result_contents, f)
+NameError: name 'result_contents' is not defined
+  File "/home2/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 454, in <module>
+    mae_x = MaQuantities(
+  File "/home2/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/home2/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000),)
+    toml.dump(result_contents, f)
+NameError: name 'result_contents' is not defined
+    toml.dump(result_contents, f)
+NameError: name 'result_contents' is not defined
+    toml.dump(result_contents, f)
+NameError: name 'result_contents' is not defined

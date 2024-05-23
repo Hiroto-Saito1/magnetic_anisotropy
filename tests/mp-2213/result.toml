@@ -1,3 +1,9 @@
-Nk = 100
-"diff TB_EM [meV]" = 0.06375295675385076
-"diff TB_OM [meV]" = 0.06258820538751997
+atoms = [ "Fe", "Ni",]
+orbitals = [ "s", "p", "d", "s", "p", "d",]
+extract_only_x_component = 1
+use_convert_ham_r = 0
+Nk = 10
+"E_F [eV]" = 15.961586432213174
+"dE[100] [meV]" = 0.046336087422105265
+"M_diff_max [meV]" = 2.86409178
+"M_diff_ave [meV]" = 0.00662719598144276

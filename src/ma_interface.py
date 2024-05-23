@@ -404,7 +404,7 @@ class MaInterface:
 
             subprocess.run(
                 "cd {}; chmod u+x submit.sh; bsub -n {} -m {} -e err ./submit.sh".format(
-                    nproc, self.inputs_pathes[i].mp_folder, group
+                    self.inputs_pathes[i].mp_folder, nproc, group
                 ),
                 shell=True,
                 check=True,
@@ -415,22 +415,22 @@ if __name__ == "__main__":
     tests_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "tests"))
 
     ma = MaInterface(root_dir=Path(tests_path))
-    """
+    
     ma.make_input_toml(
         Nk=10,
         # extract_only_x_component=1,
         # use_convert_ham_r=1,
-    )"""
+    )
 
     if socket.gethostname() == "toki":
-        ma.qsub_pyprogram("energy_diff.py", use_mpi=True, nproc=10, group="GroupA")
+        # ma.qsub_pyprogram("energy_diff.py", use_mpi=True, nproc=10, group="GroupA")
         # ma.qsub_pyprogram("angle_dep.py", use_mpi=True, nproc=22, group="GroupC")
         # ma.qsub_pyprogram("mae_convergence.py")
         # ma.qsub_pyprogram("bandfilling.py")
         # ma.qsub_pyprogram("lam_dep.py")
         pass
     elif socket.gethostname() == "zodiac":
-        # ma.bsub_pyprogram("ma_quantities.py")
+        ma.bsub_pyprogram("ma_quantities.py", nproc=10)
         # ma.bsub_pyprogram("angle_dep.py")
         # ma.bsub_pyprogram("mae_convergence.py")
         # ma.bsub_pyprogram("bandfilling.py")
