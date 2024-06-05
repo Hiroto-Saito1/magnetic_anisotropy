@@ -5,6 +5,6 @@ nnkp_file = "/home/hirotosaito/magnetic_anisotropy/tests/mp-2260_wo_soi/pwscf_re
 mp_folder = "/home/hirotosaito/magnetic_anisotropy/tests/mp-2260_wo_soi"
 extract_only_x_component = 1
 use_convert_ham_r = 0
-Nk = 10
+Nk = 100
 num_valence = 18
 angle_dep_file_name = "angle_dep_light.txt"

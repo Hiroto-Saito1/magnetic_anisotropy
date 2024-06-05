@@ -419,7 +419,7 @@ if __name__ == "__main__":
     ma = MaInterface(root_dir=Path(tests_path))
     
     ma.make_input_toml(
-        Nk=10,
+        Nk=100,
         # extract_only_x_component=1,
         # use_convert_ham_r=1,
         angle_dep_file_name="angle_dep_light.txt",
@@ -427,7 +427,7 @@ if __name__ == "__main__":
 
     if socket.gethostname() == "toki":
         # ma.qsub_pyprogram("energy_diff.py", use_mpi=True, nproc=10, group="GroupA")
-        ma.qsub_pyprogram("angle_dep_light.py", use_mpi=True, nproc=22, group="GroupE")
+        ma.qsub_pyprogram("angle_dep_light.py", use_mpi=True, nproc=10, group="GroupE")
         # ma.qsub_pyprogram("mae_convergence.py")
         # ma.qsub_pyprogram("bandfilling.py")
         # ma.qsub_pyprogram("lam_dep.py")
