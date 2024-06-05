@@ -403,14 +403,14 @@ class MaInterface:
                 )
             f.write(script_content + python_script)
             f.close()
-
+            """
             subprocess.run(
                 "cd {}; chmod u+x submit.sh; bsub -n {} -m {} -e err ./submit.sh".format(
                     self.inputs_pathes[i].mp_folder, nproc, group
                 ),
                 shell=True,
                 check=True,
-            )
+            )"""
 
 
 if __name__ == "__main__":
@@ -419,10 +419,10 @@ if __name__ == "__main__":
     ma = MaInterface(root_dir=Path(tests_path))
     
     ma.make_input_toml(
-        Nk=100,
+        Nk=10,
         # extract_only_x_component=1,
         # use_convert_ham_r=1,
-        angle_dep_file_name="angle_dep_light.txt",
+        angle_dep_file_name="angle_dep_light_orig.txt",
     )
 
     if socket.gethostname() == "toki":
@@ -434,7 +434,7 @@ if __name__ == "__main__":
         pass
     elif socket.gethostname() == "zodiac":
         # ma.bsub_pyprogram("ma_quantities.py", nproc=10)
-        # ma.bsub_pyprogram("angle_dep.py")
+        ma.bsub_pyprogram("angle_dep_light_orig.py", nproc=10)
         # ma.bsub_pyprogram("mae_convergence.py")
         # ma.bsub_pyprogram("bandfilling.py")
         # ma.bsub_pyprogram("lam_dep.py")
