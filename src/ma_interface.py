@@ -330,6 +330,7 @@ class MaInterface:
                     "use_convert_ham_r": use_convert_ham_r,
                     "Nk": Nk,
                     "num_valence": num_valence,
+                    "angle_dep_file_name": angle_dep_file_name,
                 }
                 with open(
                     self.inputs_pathes[i].mp_folder / "input_params.toml", "w"
@@ -369,13 +370,14 @@ class MaInterface:
                 )
             f.write(script_content + python_script)
             f.close()
+            """
             subprocess.run(
                 "cd {}; chmod u+x submit.sh; qsub submit.sh".format(
                     self.inputs_pathes[i].mp_folder
                 ),
                 shell=True,
                 check=True,
-            )
+            )"""
 
     def bsub_pyprogram(
         self,
@@ -420,17 +422,18 @@ if __name__ == "__main__":
         Nk=10,
         # extract_only_x_component=1,
         # use_convert_ham_r=1,
+        angle_dep_file_name="angle_dep_light.txt",
     )
 
     if socket.gethostname() == "toki":
         # ma.qsub_pyprogram("energy_diff.py", use_mpi=True, nproc=10, group="GroupA")
-        # ma.qsub_pyprogram("angle_dep.py", use_mpi=True, nproc=22, group="GroupC")
+        ma.qsub_pyprogram("angle_dep_light.py", use_mpi=True, nproc=22, group="GroupE")
         # ma.qsub_pyprogram("mae_convergence.py")
         # ma.qsub_pyprogram("bandfilling.py")
         # ma.qsub_pyprogram("lam_dep.py")
         pass
     elif socket.gethostname() == "zodiac":
-        ma.bsub_pyprogram("ma_quantities.py", nproc=10)
+        # ma.bsub_pyprogram("ma_quantities.py", nproc=10)
         # ma.bsub_pyprogram("angle_dep.py")
         # ma.bsub_pyprogram("mae_convergence.py")
         # ma.bsub_pyprogram("bandfilling.py")
