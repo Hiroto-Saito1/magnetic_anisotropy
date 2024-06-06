@@ -1,6 +1,7 @@
 angle_dep3: Nk=60, extract=T, convert=F
 angle_dep_light: Nk=100, extract=T, convert=F
 angle_dep_light1: Nk=150, extract=T, convert=F
+angle_dep_light_2: Nk=100, 桁落ちのない方法
 
 bandfilling3: Nk=100, convert=F
 lam_dep1: Nk=100, convert=F

@@ -1,0 +1,2755 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The text.latex.preview rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The text.latex.preview rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The mathtext.fallback_to_cm rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: Support for setting the 'mathtext.fallback_to_cm' rcParam is deprecated since 3.3 and will be removed two minor releases later; use 'mathtext.fallback : 'cm' instead.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The mathtext.fallback_to_cm rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The text.latex.preview rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The validate_bool_maybe_none function was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: Support for setting the 'mathtext.fallback_to_cm' rcParam is deprecated since 3.3 and will be removed two minor releases later; use 'mathtext.fallback : 'cm' instead.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The savefig.jpeg_quality rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The mathtext.fallback_to_cm rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The validate_bool_maybe_none function was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The keymap.all_axes rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_path rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The text.latex.preview rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The savefig.jpeg_quality rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: Support for setting the 'mathtext.fallback_to_cm' rcParam is deprecated since 3.3 and will be removed two minor releases later; use 'mathtext.fallback : 'cm' instead.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The text.latex.preview rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The text.latex.preview rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_args rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The validate_bool_maybe_none function was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The mathtext.fallback_to_cm rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The keymap.all_axes rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_path rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The savefig.jpeg_quality rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The text.latex.preview rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The mathtext.fallback_to_cm rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The mathtext.fallback_to_cm rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The keymap.all_axes rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The text.latex.preview rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: Support for setting the 'mathtext.fallback_to_cm' rcParam is deprecated since 3.3 and will be removed two minor releases later; use 'mathtext.fallback : 'cm' instead.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The validate_bool_maybe_none function was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: Support for setting the 'mathtext.fallback_to_cm' rcParam is deprecated since 3.3 and will be removed two minor releases later; use 'mathtext.fallback : 'cm' instead.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_args rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The text.latex.preview rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_path rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_args rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The mathtext.fallback_to_cm rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The mathtext.fallback_to_cm rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: Support for setting the 'mathtext.fallback_to_cm' rcParam is deprecated since 3.3 and will be removed two minor releases later; use 'mathtext.fallback : 'cm' instead.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The savefig.jpeg_quality rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The keymap.all_axes rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The validate_bool_maybe_none function was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: Support for setting the 'mathtext.fallback_to_cm' rcParam is deprecated since 3.3 and will be removed two minor releases later; use 'mathtext.fallback : 'cm' instead.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The validate_bool_maybe_none function was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The savefig.jpeg_quality rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The mathtext.fallback_to_cm rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: Support for setting the 'mathtext.fallback_to_cm' rcParam is deprecated since 3.3 and will be removed two minor releases later; use 'mathtext.fallback : 'cm' instead.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: Support for setting the 'mathtext.fallback_to_cm' rcParam is deprecated since 3.3 and will be removed two minor releases later; use 'mathtext.fallback : 'cm' instead.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The validate_bool_maybe_none function was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_path rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The savefig.jpeg_quality rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The text.latex.preview rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The validate_bool_maybe_none function was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The savefig.jpeg_quality rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The keymap.all_axes rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_args rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The keymap.all_axes rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_path rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The keymap.all_axes rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_path rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_args rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The validate_bool_maybe_none function was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The savefig.jpeg_quality rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The savefig.jpeg_quality rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The keymap.all_axes rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_path rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The mathtext.fallback_to_cm rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: Support for setting the 'mathtext.fallback_to_cm' rcParam is deprecated since 3.3 and will be removed two minor releases later; use 'mathtext.fallback : 'cm' instead.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The keymap.all_axes rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_path rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_args rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_args rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The validate_bool_maybe_none function was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_path rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_args rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_args rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The savefig.jpeg_quality rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The keymap.all_axes rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_path rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/hirotosaito/.conda/envs/mae/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_args rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 55, in calc
+    sorted_energy0 = self.func((0, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 58, in calc
+    sorted_energy = self.func((t_i, 0), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
+DEBUG:root:Number of processes: 10 
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 927, in format
+    return fmt.format(record)
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "/home/hirotosaito/.conda/envs/mae/lib/python3.9/logging/__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 78, in <module>
+    Angle_dep()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 21, in __init__
+    self.calc()
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 69, in calc
+    sorted_energy = self.func((np.pi / 2, p_j), params)
+  File "/home/hirotosaito/magnetic_anisotropy/src/angle_dep_light.py", line 35, in func
+    mae = MaQuantities(
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 81, in __init__
+    energy, eigvec = self.diag_in_all_k(ham_r, klist)
+  File "/misc/home/hirotosaito/magnetic_anisotropy/src/ma_quantities.py", line 125, in diag_in_all_k
+    logging.debug(type(energy), np.shape(energy))
+Message: <class 'numpy.ndarray'>
+Arguments: ((36, 1000000),)
